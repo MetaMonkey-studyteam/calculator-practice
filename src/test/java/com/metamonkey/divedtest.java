@@ -13,9 +13,9 @@ public class divedtest {
         int num1=20;
         int num2=0;
         //when
-        Assertions.assertThrows(
+        System.out.println(Assertions.assertThrows(
                 IllegalArgumentException.class,()->diviedC.diviTwoNum(num1,num2)
-        );
+        ));
 
 
         //then
